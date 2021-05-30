@@ -1,0 +1,15 @@
+.line {
+  position: relative;
+}
+.line::before {
+  content: attr(data-line);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.25rem;
+  opacity: 0.5;
+  text-align: right;
+}
+.lineText {
+  margin-left: 3.5rem;
+}
